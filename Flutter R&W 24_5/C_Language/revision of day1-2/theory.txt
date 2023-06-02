@@ -1,0 +1,39 @@
+1-What is programming lanaguage..???
+
+    it is machine level language that machine can understand
+    it is also set of code
+    binary 0 or 1
+    c, c++, java, .net, php, python,javascript
+
+
+2-What is c programming lanaguge..??
+
+    dannis ritchie introduce c language 1972
+
+
+3-What is compiler and interpreter..???
+
+    compile reads  code whole together
+    interpreter read code line by line
+    a+b
+    a&b
+
+
+4-Basic structure of c programming..??
+
+    1-defination section /* */
+    2-library section	#include<>
+    3-preprocessor directivity section	#define pi 3.14;
+    4-globle varible section			
+    5-main function()
+    6-sub function section
+
+
+5-what is printf()..??
+
+    printf is function that is used to display output
+
+
+6-What is \n \t..??
+    
+    to create new line to give tab space used \t

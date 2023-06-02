@@ -1,0 +1,15 @@
+1-what is an operators..?
+
+    operators are some special character or sign that is used to perfrom various task,
+
+    1.Arithmatic operators = to perform arithmatic task
+        +,-,*,/,%
+
+    2.assingment operators
+        =,==,
+
+    3.relative operators
+        >,<,>=,<=
+
+    4.logical operators
+        &&, !!,!=

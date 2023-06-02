@@ -1,0 +1,9 @@
+1-What is data types..??
+
+    its type of data or information that programm will be used
+
+    number :-> 			real	integer		point 		float, double
+
+    character :->		single 	char		numbers of char	string
+
+    boolean :->			true				false

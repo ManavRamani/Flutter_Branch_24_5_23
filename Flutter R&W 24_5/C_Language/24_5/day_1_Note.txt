@@ -1,0 +1,40 @@
+1-What is programming language..?
+
+	computer or any machine that understand what to do..??
+	it's set of code..
+	computer or machine can't understand our language,
+	human being used language which is know as higher level language
+	computer understand machine level language
+
+2-What is C language..??
+
+	dannis ritchei who introduce c language, 1972, linux
+	c is called mother of every programming language,
+
+3-How to run c program using sublime..??
+
+	install sublime editor:
+		--> any Drive or folder in install
+		
+	minGW distro:
+
+		--> right click on minGW then RunAs a Addminstrater 
+		--> then extrac any drive or folder 
+		--> then minGW/bin/ then click on url and copy path
+		--> then open setting and then search envroment variable 
+		--> then user or system any one in select path 
+		--> then edit on click
+		--> then add new path
+		--> then past then path and okay and apply...
+
+		write a program:
+			
+			--> then save in any folder 
+			--> then open folder and url on click and type cmd
+				--> then type this command
+					--> gcc filename.c 
+					--> a
+			--> return Output :-
+			
+		
+---------------------------Done------------------------------------------------------------

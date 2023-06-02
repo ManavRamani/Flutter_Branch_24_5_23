@@ -1,0 +1,18 @@
+/* Arithmetic Operation : */
+
+#include<stdio.h>
+
+void main()
+{
+	int n1 , n2 , ans;
+	printf("\n\t Arithmetic Operation : \n");		
+	print("Enter First Value : ");
+	scanf("%d", &n1);
+	print("Enter Second Value : ");
+	scanf("%d", &n2);
+
+	print("\n\t  Number_1 : %d \t Number_2 : %d \n " , n1 , n2);	
+
+	print("\n\t Number_1 : %d + Number_2 : %d = Ans : %d \n" , n1, n2 , ans=n1+n2 );
+
+}

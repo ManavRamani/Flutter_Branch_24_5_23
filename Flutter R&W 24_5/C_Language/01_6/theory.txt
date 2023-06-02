@@ -1,0 +1,20 @@
+1-What is if statement..??
+
+	it is used to check any condition if the condition became true then only output come
+
+	if statement used to check the condition
+	if has 4 types
+
+		simple if
+		if-else
+		if-else-ladder
+		nested-if
+
+	# Syntax :-> 
+
+		if(condition)
+		{
+			statement;
+		}
+
+

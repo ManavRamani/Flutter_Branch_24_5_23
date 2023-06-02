@@ -1,0 +1,34 @@
+1-What is keywords..?
+
+	in c language there are some words that has fixed meaning, and which can't be change
+	it can't be used as variable name
+	int, flaot, printf, main,
+
+2-What is the meaning of constant..?
+
+	constant which has fied value,and that value will not be change during the program
+	preprocess directive section			#define
+	local variable a=10;
+
+3-What is Scanf function?
+
+	scanf used for user input,
+	scanf("%d",&varibale_name);
+	&= address variable
+
+4-basic salary =
+
+	add
+		10% hra
+		20% ta
+		30% da
+
+	gross salary
+	
+	sub
+		20% pf
+		-200 p.t
+	
+	net salary
+
+5-take two values from user and swap it

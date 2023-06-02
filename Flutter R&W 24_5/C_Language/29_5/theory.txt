@@ -1,0 +1,26 @@
+1-What is data type...???
+
+	data or information that is used during program need to be clear,
+	
+	word/character			single character / numbers of character
+								char		 /		string
+
+	numbers	:->					real		/	pointing number
+								integer		/	flaot,double
+
+	yes/no	:->					bolean type
+								0	 /	 1 		true 	/	 false
+
+2-What is varible..??
+
+	it is container that hold the value which used in program
+	globle variable			=	before main function declared
+	local variable			=	inside the main funtion declared
+
+3-What is specifiers..??
+
+	int a=10;					%d
+	float b=11.5				%f
+	char name='a'				%c
+	char name[10]='apple'		%s
+
