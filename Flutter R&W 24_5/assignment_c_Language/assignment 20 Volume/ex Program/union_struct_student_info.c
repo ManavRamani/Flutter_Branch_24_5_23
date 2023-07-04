@@ -10,18 +10,20 @@ union StudentInfo
 {
     int rollNo;
     char name[50];
-    int chem_marks;
-    int maths_marks;
-    int phy_marks;
-    int total;
-    float per;
+    struct marks
+    {
+        int chem_marks;
+        int maths_marks;
+        int phy_marks;
+        int total;
+        float per;
+    } marks[5];
 } s[5];
 
 void main()
 {
     union StudentInfo;
     printf("\n ---------------------------------------------------------------- \n");
-    
     for (int i = 1; i <= 5; i++)
     {
         printf("\n\t Enter Your Roll Number : ");
@@ -33,22 +35,22 @@ void main()
         printf("\n\t Name is : %s\n", s[i].name);
 
         printf("\n\t Enter Chemistry Marks : ");
-        scanf("%d", &s[i].chem_marks);
-        printf("\n\t Chemistry Marks is : %d\n", s[i].chem_marks);
+        scanf("%d", &s[i].marks[i].chem_marks);
+        printf("\n\t Chemistry Marks is : %d\n", s[i].marks[i].chem_marks);
 
         printf("\n\t Enter Mathematics Marks : ");
-        scanf("%d", &s[i].maths_marks);
-        printf("\n\t Mathematics Marks is : %d\n", s[i].maths_marks);
+        scanf("%d", &s[i].marks[i].maths_marks);
+        printf("\n\t Mathematics Marks is : %d\n", s[i].marks[i].maths_marks);
 
         printf("\n\t Enter Physics Marks : ");
-        scanf("%d", &s[i].phy_marks);
-        printf("\n\t Physics Marks is : %d\n", s[i].phy_marks);
+        scanf("%d", &s[i].marks[i].phy_marks);
+        printf("\n\t Physics Marks is : %d\n", s[i].marks[i].phy_marks);
 
-        s[i].total = s[i].chem_marks + s[i].maths_marks + s[i].phy_marks;
-        printf("\n\t Total Marks is : %d\n", s[i].total);
+        s[i].marks[i].total = s[i].marks[i].chem_marks + s[i].marks[i].maths_marks + s[i].marks[i].phy_marks;
+        printf("\n\t Total Marks is : %d\n", s[i].marks[i].total);
 
-        s[i].per = s[i].total / 3;
-        printf("\n\t percentage is : %.2f\%\n", s[i].per);
+        s[i].marks[i].per = s[i].marks[i].total / 3;
+        printf("\n\t percentage is : %.2f\n", s[i].marks[i].per);
 
         printf("\n ---------------------------------------------------------------- \n");
     }
